@@ -230,7 +230,8 @@ button {
   box-shadow: 0 0 0 3px rgba(22, 119, 255, 0.1);
 }
 
-.input-wrapper input {
+.input-wrapper input,
+.input-wrapper select {
   width: 100%;
   min-width: 0;
   height: 100%;
@@ -240,6 +241,11 @@ button {
   border: none;
   outline: none;
   background: transparent;
+}
+
+.input-wrapper select {
+  appearance: none;
+  cursor: pointer;
 }
 
 .input-wrapper input::placeholder {
